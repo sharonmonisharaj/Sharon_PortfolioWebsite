@@ -1,0 +1,561 @@
+div #wrapper {
+	background-color:#504b47;
+	overflow: scroll;
+	margion: 0;
+	padding: 0;
+}
+
+
+div {
+  transition: background-color 0.5s ease;
+}
+
+a{
+	text-decoration: none;
+}
+
+.bar {
+	width:10vw;
+	height:100vh;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 20px #888888;
+	cursor: pointer;
+}
+
+#resume_bar{
+	display:block;
+	position:fixed;
+	margin-left:26.9%;
+	bottom:0px;
+}
+
+#portfolio_bar{
+	display:block;
+	position:fixed;
+	margin-left:38.4%;
+	bottom:0px;
+}
+
+#sketching_bar{
+	display:block;
+	position:fixed;
+	margin-left:50%;
+	bottom:0px;
+}
+
+#publications_bar{
+	display:block;
+	position:fixed;
+	margin-left:61.5%;
+	bottom:0px;
+}
+
+#contact_bar{
+	display:block;
+	position:fixed;
+	margin-left:73%;
+	bottom:0px;
+}
+
+#hamburger{
+	display: block;
+	position: fixed;
+	top:-0.6vw;
+	left:0.25vw;
+	cursor: pointer;
+}
+
+.bar:hover{
+	background-color: #e65126;
+	color: #ffffff;
+}
+
+
+.bar p{
+	display:block;
+	position: relative;
+    left: 1vw;
+	top: 39vw;
+	margin-left: 40px;
+	font-size: 50px;
+	font-weight:100;
+	text-align:end;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#504b47;
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+#portfolio_bar p{
+	display:block;
+	position: relative;
+    left: 1vw;
+	top: 39vw;
+	margin-left: 40px;
+	font-size: 50px;
+	font-weight:100;
+	text-align:end;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#e65126;
+	text-decoration: none;
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#fill_img p{
+	display:block;
+	position: relative;
+    left: 9vw;
+	top: 43.5vw;
+	margin-left: 40px;
+	font-size: 50px;
+	font-weight:100;
+	text-align:end;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#464646;
+	text-decoration: none;
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#fill_img:hover p{
+	color:ffffff;
+}
+
+.bar:hover p{
+	color:white;	
+}
+
+
+#portfolio_bar:hover p{
+	color:white;	
+}
+
+
+#fill_img{
+	display: block;
+	position: fixed;
+	bottom: 0;
+    left: 0;
+	width:26vw;
+	height:100vh;
+	background-image: url("sharon_red_cropped_red.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#fill_img:hover{
+	display: block;
+	position: fixed;
+	bottom: 0;
+    left: 0;
+	width:26vw;
+	height:100vh;
+	background-image: url("sharon_red_cropped_red_overlay.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#fill_img_about{
+	display: block;
+	position: fixed;
+	bottom: 0;
+    left: 0;
+	width:26vw;
+	height:100vh;
+	background-image: url("sharon_red_cropped_red.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+#about_photo{
+	display:block;
+	position:fixed;
+	width:30vw;
+	height:100vh;
+	bottom: 0;
+    right: 4.5vw;
+	background-image: url("sharon_bw.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+#grey_bar {
+	display: block;
+	position: fixed;
+	bottom: 0;
+    right: 0;
+	width:13.5vw;
+	height:100vh;
+	text-decoration: none;
+	background-color: #504b47;
+	box-shadow: 2px 2px 20px #888888;
+	cursor: pointer;
+}
+
+
+#bar_title p{
+	display:block;
+	position: relative;
+    left: 50px;
+	top: 500px;
+	margin-left: -20px;
+	margin-top: -10px;
+	font-size: 50px;
+	font-weight:100;
+	text-align:end;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#ffffff;
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+#bar_title {
+	display: block;
+	position: fixed;
+	bottom: 0;
+    left: 0;
+	width:10vw;
+	height:100vh;
+	padding: 14px;
+	text-decoration: none;
+	background-color: #e65126;
+	color: #ffffff;
+	box-shadow: 2px 2px 20px #888888;
+	cursor: pointer;
+}
+
+
+#bar_menu {
+	display: block;
+	position: fixed;
+	bottom: 0;
+    right: 0;
+	width:3vw;
+	height:100vh;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #504b47;
+	/*box-shadow: 2px 2px 20px #888888;*/
+	cursor: pointer;
+}
+
+
+#bar_menu a{
+	display: block;
+	position: relative;	    
+	font-size: 18px;
+	font-weight: 50;
+	text-align: left;
+	font-family:BigNoodleTitling, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#ffffff;
+	
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+#about {
+	display: block;
+	position: relative;
+	left: 0.1vw;
+	top: 46.5vw;
+}
+
+#resume {
+	display: block;
+	position: relative;
+	left: 0.1vw;
+	top: 37.5vw;
+}
+
+#portfolio {
+	display: block;
+	position: relative;
+	left: 0.1vw;
+	top: 28.5vw;
+}
+
+#sketching {
+	display: block;
+	position: relative;
+	left: 0.1vw;
+	top: 18.5vw;
+}
+
+#publications {
+	display: block;
+	position: relative;
+	left: 0.1vw;
+	top: 8vw;
+}
+
+#contact {
+	display: block;
+	position: relative;
+	left: 0.1vw;
+	top: -3.5vw;
+}
+
+img #profile_photo{
+    height:100vh;
+	position: relative;
+}
+
+.column{
+	display: block;
+	position: relative;	
+	background-color: #ffffff;
+	width:26vw;
+	float: left;
+	padding:5px;
+	margin:0px;
+}
+
+#column_1{
+	left:15vw;
+}
+
+#column_2{
+	left:15vw;
+}
+
+#column_3{
+	left:15vw;
+}
+
+h1{
+	display: block;
+	position: relative;	    
+	font-size: 17px;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.5;
+	font-family:Gill Sans, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#e65126;
+	padding: 0px;
+	margin:0px;
+}
+
+h2{
+	display: block;
+	position: relative;	    
+	font-size: 12px;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.5;
+	font-family:Gill Sans, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#464646;
+	padding: 0px;
+	margin:0px;
+}
+
+.resume_text{
+	display: block;
+	position: relative;	    
+	font-size: 10px;
+	font-style: normal;
+	text-align: left;
+	line-height: 1.5;
+	font-family:Roboto Condensed, sans-serif, Arial;;
+	color:#464646;
+	padding: 0px;
+	margin:0px;
+}
+
+#contact_info{
+	display: block;
+	position: relative;	
+	background-color: #ffffff;
+	width:26vw;
+	float: left;
+	margin-left:14.4vw;
+	margin-top:2vw;
+}
+
+#contact_form{
+	
+}
+
+#about_text{
+	display: block;
+	position: relative;	
+	background-color: #ffffff;
+	width:50vw;
+	float: left;
+	left:30vw;
+	padding:5px;
+	margin:0px;
+}
+
+.box{
+	display: block;
+	position: relative;	
+	float: left;
+	left:12.2vw;
+    width: 27%;
+    height: 45%;
+    margin: 4px;
+	-moz-box-shadow:    inset 2px 2px 5px rgba(0,0,0,0.3);
+   	-webkit-box-shadow: inset 2px 2px 5px rgba(0,0,0,0.3);
+   	box-shadow:         inset 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.box a{
+	position:relative;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	color: #464646;
+	top: 1vw;
+	padding-left: 20px;
+}
+
+input[type=text], select {
+	font-family: BigNoodleTitling, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 15px;
+	color: #b2b2b2;
+    width: 47.5vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0px solid #ccc;
+    box-sizing: border-box;
+	box-shadow: 1.5px 1.5px 7px rgba(0,0,0,0.3);
+}
+
+input[type=submit] {	
+    width: 20vw;
+    background-color: #504b47;
+	font-family: BigNoodleTitling, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 30px;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+	position: relative;
+	left:27.5vw;
+}
+
+input[type=submit]:hover {
+    background-color: #e65126;
+}
+
+textarea {
+	font-family: BigNoodleTitling, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 15px;
+	color: #b2b2b2;
+    width: 47.5vw;
+    padding: 12px 20px;
+    height: 150px;
+	margin: 8px 0;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 0px;
+    background-color: #ffffff;
+    resize: none;
+	box-shadow: 1.5px 1.5px 7px rgba(0,0,0,0.3);
+}
+
+.big_title{
+	display: block;
+	position: relative;	    
+	font-size: 40px;
+	font-style: normal;
+	text-align: left;
+	font-family:BigNoodleTitling, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#e65126;
+	padding: 0px;
+	margin:0px;
+}
+
+.sharon{
+	display: block;
+	position: relative;	    
+	font-size: 40px;
+	top:3vw;
+	left:2vw;
+	font-style: normal;
+	text-align: left;
+	font-family:BigNoodleTitling, Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:#e65126;
+	padding: 0px;
+	margin:0px;
+}
+
+.subtext{
+	display: block;
+	position: relative;	    
+	font-size: 15px;
+	font-style: normal;
+	text-align: left;
+	font-family:Silom, Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+	color:#464646;
+	padding: 10px 0px;
+	margin:0px;
+}
+
+.summary{
+	display: block;
+	position: relative;	
+	width:45vw;
+	top:2vw;
+	left:2vw;
+	font-size: 15px;
+	font-style: normal;
+	text-align: left;
+	font-family:Roboto Condensed, sans-serif, Arial;
+	color:#464646;
+	padding: 10px 0px;
+	margin:0px;
+	line-height: 1.5;
+}
