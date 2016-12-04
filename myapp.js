@@ -1,5 +1,4 @@
-// JavaScript Document
-$(".bar").click(function() {
-  window.location = $(this).find("a").attr("href"); 
-  return false;
-});
+function myFunction() {
+	document.getElementById("elevator_details").style.display = "none";
+    document.getElementById("hidesign_details").style.display = "block";
+}

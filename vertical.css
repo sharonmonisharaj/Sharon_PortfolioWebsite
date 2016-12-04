@@ -16,17 +16,6 @@
 	cursor: pointer;
 }
 
-.flexible{
-	display: block;
-	position: absolute;
-	width:90%;
-	height:12.5%;
-	border-bottom: 1px solid #fff;
-	align-self: auto;
-	text-align:center;
-	color:white;
-}
-
 ul {
 	display: block;
 	position: fixed;

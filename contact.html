@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Tabbed Content with CSS and jQuery</title>
+    <title>Contact Sharon</title>
     <link href="myapp.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="myapp.js"></script>
     <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
@@ -10,10 +10,16 @@
   <body>   
 
     <div id="wrapper">
+       
+       	<div id="about_photo">	
+   		</div>
         
         <div id="bar_title">
-			<a href="myapp.html"><img src="icon_hamburger.png" id="hamburger"></a>
-    		
+			<a href="myapp.html" class="landingpage">
+				<div class="dynamic_hamburger" id="one"></div>
+				<div class="dynamic_hamburger" id="two"></div>
+				<div class="dynamic_hamburger" id="three"></div>
+			</a>
    		</div>
    		
    		
@@ -24,7 +30,7 @@
 			</p>
 			
 			<form action="action_page.php" id="contact_form">
- 				<input type="text" name="name" value="NAME"><br>
+ 				<input type="text" name="name" value="SUBJECT"><br>
  				<input type="text" name="email" value="E-MAIL ID"><br>
    				<textarea rows="4" cols="50">MESSAGE</textarea>
 
@@ -45,10 +51,6 @@
 				<li><a class="active" href="contact.html" id="contact">CONTACT</a></li>
 			</ul>
 		</div>
-   
-   
-   		<div id="about_photo">	
-   		</div>
      
     </div>
     
